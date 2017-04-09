@@ -1,0 +1,240 @@
+/*modal window*/
+.main {
+    font-family: Tahoma;
+}
+.modalAdd {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-contentAdd {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    height: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.closeAdd {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeAdd:hover,
+.closeAdd:focus {
+    color: #cdcdcd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headerAdd {
+    padding: 2px 16px;
+    background: linear-gradient(to top,rgba(3, 86, 133, 0.94), rgba(8, 134, 206, 0.63));
+    height: 40px;
+    color: white;
+    box-shadow: 0px 3px 8px 3px gray;
+}
+
+.modal-bodyAdd {padding: 2px 16px;}
+
+.modal-bodyAdd iframe {
+    width: 100%;
+    height: 600px;
+}
+
+
+/*left side*/
+
+.left-sideAdd {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    color: rgba(3, 86, 133, 0.94);
+}
+
+.left-sideAdd button {
+    height: 30px;
+    font-size: 15px;
+    background: rgba(3, 86, 133, 0.94);
+    color: white;
+    border: 1px solid white;
+}
+
+.producerAdd {
+    margin-top: 20px;
+}
+
+.producerAdd input{
+    width: 30%;
+    height: 30px;
+    border: 1px solid rgba(3, 86, 133, 0.94);
+    font-size: 15px;
+    color: rgba(3, 86, 133, 0.94);
+}
+
+.producerAdd h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.ratingAdd {
+    margin: 20px 0 0 0;
+}
+.ratingAdd img {
+    margin-right: 5px;
+}
+
+.ratingAdd p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.rating-starAdd {
+    width: 20px;
+    height: 20px;
+}
+
+.left-sideAdd label {
+    font-size: 25px;
+}
+
+
+/*right side*/
+.right-sideAdd {
+    padding: 2%;
+    color: rgba(3, 86, 133, 0.94);
+}
+
+.right-sideAdd label {
+    font-size: 25px;
+}
+
+.right-sideAdd button {
+    height: 30px;
+    font-size: 15px;
+    background: rgba(3, 86, 133, 0.94);
+    color: white;
+    border: 1px solid white;
+}
+
+.right-sideAdd input {
+    width: 15%;
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid rgba(3, 86, 133, 0.94);
+    font-size: 15px;
+    color: rgba(3, 86, 133, 0.94);
+}
+
+.right-sideAdd h1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.right-sideAdd select {
+    margin-top: 20px;
+    width: 15%;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+.right-sideAdd select option {
+    color: rgba(3, 86, 133, 0.94);
+}
+
+.right-sideAdd img {
+    width: 10%;
+    height: 100px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.add-textarea {
+    margin-top: 20px;
+    border: 1px solid rgba(3, 86, 133, 0.94);
+    display: block;
+    width: 500px;
+    height: 150px;
+    font-size: 20px;
+    color: rgba(3, 56, 99, 0.94);
+}
+
+.trailerAdd form {
+    margin-top: 100px;
+}
+ .scrinShotAdd form {
+     margin-top: 30px;
+ }
+
+ .lineAdd {
+     height: 1px;
+     width: 200px;
+     background: rgba(3, 86, 133, 0.94);
+ }
+
+.trailerAdd .modal-form {
+     width: 200px;
+     height: 30px;
+     margin-top: 0;
+ }
+
+.add-textarea-button {
+    height: 30px;
+    font-size: 15px;
+    background: rgba(3, 86, 133, 0.94);
+    color: white;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+
+.add-title,
+.text-producer,
+.num-reit{
+    color: rgba(3, 56, 99, 0.94);
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.right-sideAdd .add-onsaite {
+    float: right;
+    background: #448837;
+}
+
+
+
+/*drop zone*/
+
+#dropZone {
+    border: 10px dashed #ccc;
+    width: 100%;
+    min-height: 300px;
+    margin: 20px auto;
+    padding: 1%;
+}

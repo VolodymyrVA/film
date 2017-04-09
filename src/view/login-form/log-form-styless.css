@@ -1,0 +1,111 @@
+#login-form-view
+{
+    font-family: Tahoma, sans-serif;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    background: radial-gradient(at center center, rgba(8, 134, 206, 0.63), rgba(3, 86, 133, 0.94));
+}
+
+.form-title
+{
+    display: table;
+
+    width: 21.25rem;
+    height: 3.25rem;
+    margin: auto;
+    margin-top: 10%;
+
+    color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(to top,rgba(3, 86, 133, 0.94), rgba(8, 134, 206, 0.63));
+}
+
+.form-title p
+{
+    margin: 1.25rem 0 0 1.125rem;
+}
+
+.form-title p span
+{
+    float: right;
+
+    margin-right: 1.125rem;
+
+    cursor: pointer;
+}
+
+.log-form
+{
+    display: table;
+
+    width: 21.25rem;
+    margin: auto;
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: white;
+}
+
+.log-form  input
+{
+    display: block;
+
+    width: 18.45rem;
+    height: 2.5rem;
+    margin: 1rem 0 1rem 1.125rem;
+    padding-left: .5rem;
+
+    border: 1px solid rgb(228,227,228);
+    border-radius: 2px;
+    background: rgb(240,238,240);
+}
+
+.submit-button
+{
+    display: inline;
+
+    width: 5.25rem;
+    height: 2.125rem;
+    margin-bottom: 1.875rem;
+    margin-left: 1.125rem;
+
+    text-align: center;
+
+    color: gray;
+    border: .5px solid rgba(3, 86, 133, 0.94);
+    border-radius: 2px;
+    background: rgba(9, 167, 255, 0.19);
+}
+
+.active
+{
+    background: rgba(3, 86, 133, 0.94);
+    /*background: green;*/
+}
+
+
+.helpInput
+{
+    display: block;
+
+    width: 18.45rem;
+    margin: -1rem 0 1rem 1.125rem;
+
+    color: red;
+    font-size: 12px;
+}
+
+.hidden
+{
+    visibility: hidden;
+}

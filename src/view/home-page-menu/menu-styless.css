@@ -1,0 +1,60 @@
+#home-page-menu-view {
+    font-family: Tahoma;
+    color: rgba(3, 86, 133, 0.94);
+    font-size: 14px;
+    position: fixed;
+
+}
+
+#home-page-menu-view .menu {
+    margin-left: 30px;
+
+}
+
+.menu .home-menu {
+    font-size: 30px;
+    width: 70px;
+    margin-left: -8px;
+}
+
+.menu .home-menu img {
+    width: 70px;
+    height: 60px;
+}
+
+.ganre-menu ul li {
+    margin-top: 2%;
+}
+.ganre-menu ul li:hover {
+    cursor: pointer;
+    color: rgba(8, 134, 206, 0.63);
+
+}
+
+/*.favorits-menu ul {*/
+    /*text-align: center;*/
+/*}*/
+
+.favorits-menu ul li {
+    margin-top: 2%;
+}
+
+.favorits-menu ul li:hover {
+    cursor: pointer;
+    color: rgba(8, 134, 206, 0.63);
+
+}
+
+.add-films ul li {
+    margin-top: 2%;
+}
+
+.add-films ul li:hover {
+    cursor: pointer;
+    color: rgba(8, 134, 206, 0.63);
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-top: 10%;
+}
