@@ -202,6 +202,8 @@ export default MRP.view('add-film-view', {
     quantitySelection() {
         let sel = document.querySelector(".add-selection"),
             txt = sel.options[sel.selectedIndex].text;
+
+        this.ganreSelectValue = txt;
     },
 
     quantityTextarea(e) {
@@ -249,14 +251,14 @@ export default MRP.view('add-film-view', {
     createStore(e){
         e.stopPropagation();
         e.preventDefault();
-        let img = document.querySelector('.imgDnb'),
-            idItem = this.dataSetup[this.dataSetup.length -1].id;
-
         this.dataSetup = localStor.getStorage('filmSetup');
-        console.log(this.dataSetup[this.dataSetup.length -1].id);
         this.createScrinArry();
-        if(img) this.imageUrl = img.getAttribute('src');
+        this.quantitySelection();
 
+        let img = document.querySelector('.imgDnb'),
+            idItem = this.dataSetup[this.dataSetup.length -1].id + 1;
+
+        if(img) this.imageUrl = img.getAttribute('src');
 
         let store = {
             name: this.titleInpValue,
@@ -273,21 +275,18 @@ export default MRP.view('add-film-view', {
             comments: [{
                 author: this.producerInpValue
             }],
-            id: 2
+            id: idItem
 
 
-        },
-
-        itemList = {
-            description: this.ganreSelectValue,
-            imageUrl: this.imageUrl,
-            name: this.titleInpValue,
-            rating: this.sumStar,
-            id: idItem + 1
         };
         this.dataSetup.push(store);
-        localStor.createStorage('filmUser', store);
-        localStor.createStorage('filmSetup', this.dataSetup)
+        localStor.createStorage('filmSetup', this.dataSetup);
+
+        MRP.showView('home-page-view', {
+            selector: '#app-wrapper',
+            animation:{ type: 'hide' }
+        });
+        store = {};
     },
 
 })

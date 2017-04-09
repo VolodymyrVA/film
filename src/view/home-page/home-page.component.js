@@ -22,13 +22,12 @@ export default MRP.view('home-page-view', {
     },
 
     onEndRender() {
-
+        this.viseblGanre();
     },
 
     storeFilmList(filmListJson) {
         this.html = this.template(filmListJson);
-        this.viseblGanre();
-        return
+        this.dataSetup = filmListJson;
     },
 
     getFilmList(){
@@ -82,7 +81,6 @@ export default MRP.view('home-page-view', {
         clearWrapper.innerHTML = '';
 
         this.dataSetup.forEach((elem) =>{
-
             if(elem.description == text){
                 tempSetup.push(elem);
             }
@@ -103,8 +101,7 @@ export default MRP.view('home-page-view', {
 
         MRP.showView('film-page-view', {
             selector: '#app-wrapper',
-            animation:{ type: 'withoutAnimation' },
-            extra: elem
+            extra: elem - 1
         });
         e.stopPropagation();
     },

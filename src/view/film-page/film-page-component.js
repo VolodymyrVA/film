@@ -16,26 +16,35 @@ export default MRP.view('film-page-view', {
     dataSetup : [],
 
     onEndRender(){
+        this.initFavoritStore();
+        this.hideMenuGanre();
+    },
 
+    storeFilmList(filmPage) {
+        this.html = this.template(filmPage[this.extra]);
+        this.dataSetup = filmPage;
     },
 
     onInit(){
-        let self = this;
+        let self = this,
+            filmPage = localStor.getStorage('filmSetup');
+        console.log(filmPage)
+        if(filmPage) this.storeFilmList(filmPage);
+        else {
+            network.getFilmList()
+                .then((filmPage) => {
+                    self.dataSetup = filmPage;
 
-        network.getFilmPage(this.extra)
-            .then((filmPage) => {
-                self.dataSetup = filmPage;
+                    this.html = this.template(filmPage[this.extra]);
+                    this.update();
+                    this.initFavoritStore();
+                    this.hideMenuGanre();
+                })
+                .catch((errStr) => {
+                    console.log(errStr)
+                })
 
-                this.html = this.template(filmPage);
-                this.update();
-                this.initFavoritStore();
-                this.hideMenuGanre();
-            })
-            .catch((errStr) => {
-                console.log(errStr)
-            })
-
-
+        }
     },
 
     onSubmit() {

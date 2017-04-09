@@ -2,7 +2,7 @@
   {
     "name": "Lion King",
     "imageUrl": "http://images.fandango.com/images/fandangoblog/lionking3d450.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Animation",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -19,12 +19,12 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 1
   },
   {
     "name": "Star Trak",
     "imageUrl": "https://s-media-cache-ak0.pinimg.com/736x/f8/7e/81/f87e81a9067594b66c1971cc1753da67.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Fantastyc",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -46,7 +46,7 @@
   {
     "name": "Avengers",
     "imageUrl": "http://www.panicposters.com/media/catalog/product/cache/1/image/f63dc5ec28f3175f8a7f615bd217eb71/p/p/pp33548-avengers-ultron-poster.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Fantastic",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -63,12 +63,12 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 3
   },
   {
     "name": "Harry Potter",
     "imageUrl": "https://cdn1.thehunt.com/app/public/system/zine_images/9191628/original/0f4740bbf13b792c2a15e85db7a86cf1.jpeg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Fantasy",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -85,12 +85,12 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 4
   },
   {
     "name": "Shutter Island",
     "imageUrl": "http://img12.deviantart.net/a45d/i/2010/257/2/8/shutter_island_by_turk1672-d2ypmom.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Mystery",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -107,12 +107,12 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 5
   },
   {
     "name": "The Dark Knight",
     "imageUrl": "http://orig03.deviantart.net/91b5/f/2012/005/7/a/the_dark_knight_rises_poster_iii_by_mike1306-d4lf9xi.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Action",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -129,12 +129,12 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 6
   },
   {
     "name": "Inception",
     "imageUrl": "http://cdn.collider.com/wp-content/uploads/Inception-movie-poster-7.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Action",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -151,12 +151,12 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 7
   },
   {
     "name": "Star War",
     "imageUrl": "https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/starwarssagaposterbig.jpg",
-    "description": "Animation, Adventure, Drama ",
+    "description": "Fantastic",
     "fullDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
     "additionalImages": [
       "https://s-media-cache-ak0.pinimg.com/736x/8a/32/cf/8a32cf8f16565bdeaeba0a0b0267381b.jpg",
@@ -173,6 +173,6 @@
     "comments": [{
       "author": "test"
     }],
-    "id": 2
+    "id": 8
   }
 ]

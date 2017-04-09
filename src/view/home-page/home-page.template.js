@@ -16,7 +16,7 @@ const template = (list, users) => {
                             return `
                                 <div class="main-item">
                                     <img src="${item.imageUrl}">
-                                    <div class="item-description" name="${index+1}">
+                                    <div class="item-description" name="${item.id}">
                                         <ul><li>${item.description}</li>
                                             <li>${item.name}</li>
                                             <li>rating: ${item.rating}</li>
